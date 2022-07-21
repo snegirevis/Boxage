@@ -1,0 +1,204 @@
+/* body{
+    background: linear-gradient(180deg, #D0E5EC 0%, #FFFFFF 34.22%); 
+}
+*/
+
+body{
+    background: linear-gradient(180deg, #D0E5EC 0%, #FFFFFF 34.22%); 
+	background-repeat: no-repeat;
+}
+
+.logo_text{
+    font-family: 'Montserrat Alternates';
+    font-weight: 700;
+    font-size: 46px;
+    text-decoration: none;
+}
+
+.medium_text{
+    font-family:'Montserrat Alternates';
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.simple_text{
+    font-family:'Montserrat Alternates';
+    font-weight: 500;
+}
+
+.logo_img{
+    height: 70px;
+    width: 70px;
+}
+
+.navline{
+    height: 200px;
+}
+
+.search_button{
+    height: 36px;
+   
+}
+
+.search_input{
+    background-color: rgba(118, 118, 125, 0.12);
+    height: 36px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-style: none;
+}
+
+.tshirt{
+    height: 400px;
+    width: 400px;
+}
+
+.input_field{
+    border-radius: 20px;
+    background: rgba(118, 118, 125, 0.12);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.input_section{
+    border-radius: 20px;
+    border-style: none;
+    background-color: white;
+}
+
+.add_button{
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-size: 1vw;
+}
+
+
+.add_item{
+    border-radius: 20px;
+    border-style: none;
+    margin-left: 10px;
+}
+
+.plus{
+    border-style: none;
+    background-color: white;
+    border-radius: 40px;
+}
+
+#products{
+    display: grid;
+	grid-template-columns: 20vw 20vw 20vw;
+    grid-column-gap: 5vw;
+	grid-row-gap: 100px;
+    margin-top: 120px;   
+}
+
+.product_div{
+ display: flex;
+ flex-direction: column;
+ height: 25vw;
+ width: 20vw;
+ overflow: auto;
+ background: rgba(118, 118, 125, 0.12);
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ border-radius: 20px;
+ align-items: center;
+ position: relative;
+}
+
+.product_h1{
+ font-size: 1.3vw;
+ margin-top: 30px;
+ font-family: 'Montserrat Alternates';
+ font-weight: 700;
+}
+
+.product_p{
+    font-size: 0.8vw;
+    font-family: 'Montserrat Alternates';
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.product_hr{
+    color: black;
+	height: 1px;
+    width: 15vw;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sizes_div{
+    display: grid;
+	grid-template-columns: 3vw 3vw 3vw;
+	grid-column-gap: 1.5vw;
+    margin-top: 10px;
+}
+
+.size_p{
+    text-align: center;
+    font-family: 'Montserrat Alternates';
+    font-weight: 500;
+    font-size: 0.8vw;
+    margin-bottom:0;
+    padding-bottom: 0;
+}
+
+.amount_p{
+    text-align: center;
+    font-family: 'Montserrat Alternates';
+    font-weight: 400;
+    font-size: 0.7vw;
+    color: grey;
+    margin-bottom:0;
+    padding-bottom: 0;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.button_size{
+    border-style: none;
+    text-align: center;
+    font-size: 1vw; 
+    font-weight: 700;
+}
+
+.colors_div{
+    display: grid;
+	grid-template-columns: 4vw 4vw;
+	grid-column-gap: 2vw;
+    margin-top: 10px;
+}
+
+.color_describer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.circle_icon{
+    height: 0.6vw;
+    width: 0.6vw;
+    border-radius: 30px;
+}
+
+.trash_icon{
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+.fa-trash:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.fa-trash:active{
+  color: black;
+}
+
+@keyframes result{
+	from{ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+	to{ box-shadow: 4px 4px 20px rgba(249, 181, 6, 0.5);}
+}
